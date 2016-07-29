@@ -11,8 +11,8 @@ img {
 #header {
   background: url("images/tracks.jpg");
   background-size: cover;
-  color: white;
-  text-align: center;
+  color: black;
+  text-align: left;
   padding-top: 15px;
   padding-bottom: 15px;
 }
