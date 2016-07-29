@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  height: 150px;
+  border: 1px solid black;
+}
+
+#header {
+  background: url("images/tracks.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+  #header img {
+    border-radius: 80px;
+  }
+  #header a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px dashed white;
+  }
+    #header a:hover {
+      border-bottom: 1px solid white;
+    }
+  #header ul {
+    list-style-type: none;
+    padding: 0;
+  }
+    #header ul li {
+      margin-top: 7px;
+      display: inline;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+.post {
+  padding: 10px;
+}
+  .post h2 {
+    display: inline-block;
+  }
+  .post ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    padding-left: 10px;
+  }
+    .post ul li {
+      display: inline;
+      margin-right: 5px;
+    }
+  .post a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+  }
+    .post a:hover {
+      background-color: #dddddd;
+    }
+  .post img {
+    display: block;
+  }
+
+#back-to-top {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background-color: #888;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+  #back-to-top:hover {
+    background-color: #777777;
+  }
