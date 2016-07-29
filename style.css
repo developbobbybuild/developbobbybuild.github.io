@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Indie Flower', cursive;
+    background-color: white;
 }
 
 img {
@@ -20,7 +20,7 @@ img {
     border-radius: 80px;
   }
   #header a {
-    color: white;
+    color: black;
     text-decoration: none;
     border-bottom: 1px dashed white;
   }
@@ -30,6 +30,7 @@ img {
   #header ul {
     list-style-type: none;
     padding: 0;
+      color:black;
   }
     #header ul li {
       margin-top: 7px;
