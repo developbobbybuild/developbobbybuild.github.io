@@ -1,108 +1,48 @@
 body {
-  margin: 0;
-    background-color: white;
+  font-family: "Open Sans", sans-serif;
+  text-align:center;
 }
 
-img {
-  height: 150px;
-  border: 1px solid black;
-}
-
-
-#animate {
-    margin: 0 auto;
-    color:white;
-    background-color: #21a0e3;
-    font-family: sans-serif;
-    font-weight:600;
-    border-radius: 5px;
-    display: inline-block;
-    text-align:center;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    padding: 30px 50px;
-    text-decoration: none;
-    transition: all 1s;
-}
-
-#animate:hover {
-    background-color: #0979b4;
-    border-radius: 100px;
-}
-
-
-
-#header {
-  background: url("images/tracks.jpg");
-  background-size: cover;
-  color: black;
-  text-align: left;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-  #header img {
-    border-radius: 80px;
-  }
-  #header a {
-    color: black;
-    text-decoration: none;
-    border-bottom: 1px dashed white;
-  }
-    #header a:hover {
-      border-bottom: 1px solid white;
-    }
-  #header ul {
-    list-style-type: none;
-    padding: 0;
-      color:black;
-  }
-    #header ul li {
-      margin-top: 7px;
-      display: inline;
-      margin-left: 5px;
-      margin-right: 5px;
-    }
-
-.post {
+header {
+  display: block;
   padding: 10px;
+  background-color: white;
+  width: 100%;
 }
-  .post h2 {
-    display: inline-block;
-  }
-  .post ul {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0;
-    padding-left: 10px;
-  }
-    .post ul li {
-      display: inline;
-      margin-right: 5px;
-    }
-  .post a {
-    text-decoration: none;
-    color: black;
-    border: 1px solid black;
-    padding: 5px;
-  }
-    .post a:hover {
-      background-color: #dddddd;
-    }
-  .post img {
-    display: block;
-  }
 
-#back-to-top {
-  position: fixed;
-  bottom: 5px;
-  right: 5px;
-  background-color: #888;
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
+header li {
+  display:inline-block;
+  list-style-type:none;
+  margin: 0 30px 0 30px;
+}
+
+header li a {
   text-decoration: none;
+  color:black;
+  font-weight: 900;
+  letter-spacing: 5px;
 }
-  #back-to-top:hover {
-    background-color: #777777;
-  }
+
+#name {
+  padding-top: 100px;
+}
+
+#name h1 {
+  font-weight: 100;
+  font-size:50px;
+  color:white;
+  margin: 0;
+}
+
+#name h2 {
+  font-weight: 400;
+  margin: 0;
+  color:white;
+}
+section {
+ height: 725px;
+  background-image:url('http://unsplash.com/photos/67t2GJcD5PI/download');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
