@@ -21,6 +21,12 @@ header li a {
   color:black;
   font-weight: 900;
   letter-spacing: 5px;
+    transition: all 1s;
+}
+
+header li a:hover {
+    opacity: 0.7;
+    color: white;
 }
 
 #name {

@@ -1,1 +1,0 @@
-firebase=selfcheck-8ba5b
